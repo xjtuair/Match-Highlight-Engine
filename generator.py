@@ -15,3 +15,13 @@ vid, sample_rate = librosa.load(filename,sr=16000)
 print(int(librosa.get_duration(vid, sample_rate)/60))
 
 #Breaking down video into chunks of 5 seconds so that rise in energy can be found.
+chunk_size=5 
+window_length = chunk_size * sample_rate
+
+#seeing an audio sample and it's time-amplitude graph
+a=vid[5*window_length:6*window_length] 
+ipd.Audio(a, rate=sample_rate)
+energy = sum(abs(a**2))
+print(energy)
+fig = plt.figure(figsize=(14, 8)) 
+ax1 = fig.add_subplot(211) 
