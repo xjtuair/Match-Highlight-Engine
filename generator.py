@@ -34,3 +34,11 @@ energy = np.array([sum(abs(vid[i:i+window_length]**2)) for i in range(0, len(vid
 plt.hist(energy) 
 plt.show()
 #Close graphs for progress of program
+
+#Finding and setting threshold value of commentator and audience noise above which we want to include portion in highlights.
+df=pd.DataFrame(columns=['energy','start','end'])
+thresh=300
+row_index=0
+for i in range(len(energy)):
+	value=energy[i]
+	if(value>=thresh):
