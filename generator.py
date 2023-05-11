@@ -44,3 +44,9 @@ for i in range(len(energy)):
 	if(value>=thresh):
 		i=np.where(energy == value)[0]
 		df.loc[row_index,'energy']=value
+		df.loc[row_index,'start']=i[0] * 5
+		df.loc[row_index,'end']=(i[0]+1) * 5
+		row_index= row_index + 1
+
+#Merge consecutive time intervals of audio clips into one.
+temp=[]
