@@ -50,3 +50,8 @@ for i in range(len(energy)):
 
 #Merge consecutive time intervals of audio clips into one.
 temp=[]
+i,j,n=0,0,len(df) - 1
+while(i<n):
+	j=i+1
+	while(j<=n):
+		if(df['end'][i] == df['start'][j]):
