@@ -65,3 +65,9 @@ df.drop(temp,axis=0,inplace=True)
 
 
 #Extracting subclips from the video file on the basis of energy profile obtained from audio file.
+start=np.array(df['start'])
+end=np.array(df['end'])
+
+#Create temporary folder for storing subclips generated. This folder will be deleted later after highlights are generated. 
+cwd=os.getcwd()
+sub_folder=os.path.join(cwd,"Subclips")
