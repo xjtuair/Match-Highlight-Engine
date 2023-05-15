@@ -60,3 +60,8 @@ while(i<n):
 			j=j+1
 		else:
 			i=j
+			break  
+df.drop(temp,axis=0,inplace=True)
+
+
+#Extracting subclips from the video file on the basis of energy profile obtained from audio file.
