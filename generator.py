@@ -81,3 +81,10 @@ else:
 #Extract moments from videos to be added in highlight
 print(df)
 for i in range(len(df)):
+	if(i!=0):
+		start_lim = start[i] - 5  #Assuming that noise starts after the shot, so set start point as t-5 seconds to include the shot/wicket action.
+	else:
+		start_lim = start[i] 
+	end_lim   = end[i]   
+	filename="highlight" + str(i+1) + ".mp4"
+	ffmpeg_extract_subclip("M27 KKR vs RCB  – Match Highlights.mp4",start_lim,end_lim,targetname=sub_folder+"/"+filename) #Enter your sports video clip name here.
