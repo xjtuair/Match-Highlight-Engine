@@ -24,3 +24,12 @@ In addition to providing an interesting application for match enthusiasts, this 
 * [ ] Provide a way for users to set variable parameters like sample rate, filename, chunk size, threshold, etc, via Terminal/GUI.
 * [ ] Work on reducing latency time by splitting the video and then parallelizing the highlights extraction process.
 * [x] Auto-delete the subclips generated during the highlight creation process.
+
+Additional Resources: For sample video and audio, kindly click [here](https://drive.google.com/open?id=1bWfQat17fmmpBo92w698C2sxRxBEztnk). It contains match video, audio files and also the script generated highlights:
+
+1. India vs Australia 2007 World Cup Indian Powerplay.
+2. KKR vs RCB (RCB 49 All out).
+
+## To run this project:
+* [Fork](https://github.com/xjtuair/Match-Highlight-Engine) this Repository.
+* Open Terminal and enter the folder 'Match-Highlight-Engine'.
