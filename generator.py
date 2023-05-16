@@ -88,3 +88,7 @@ for i in range(len(df)):
 	end_lim   = end[i]   
 	filename="highlight" + str(i+1) + ".mp4"
 	ffmpeg_extract_subclip("M27 KKR vs RCB  – Match Highlights.mp4",start_lim,end_lim,targetname=sub_folder+"/"+filename) #Enter your sports video clip name here.
+
+files=os.listdir(sub_folder)
+files=[sub_folder+"/highlight" + str(i+1) + ".mp4" for i in range(len(df))]
+#print(files)
