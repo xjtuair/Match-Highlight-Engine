@@ -38,3 +38,11 @@ Additional Resources: For sample video and audio, kindly click [here](https://dr
 * Set variables for input audio and video filenames and desired output filename in code. This will soon be changed to allow setting from terminal arguments.
 * Run `python3 generator.py`
 * Be patient as the highlights are being created! :alarm_clock:
+* And there you have it. Your highlights package is ready. :fire:
+
+#### Opportunities for Contribution:
+* [Fork](https://github.com/xjtuair/Match-Highlight-Engine) this Repository.
+* Clone your Fork on a different branch:
+	* `git clone -b <name-of-branch> https://github.com/xjtuair/Match-Highlight-Engine.git`
+* After adding any feature:
+	* Head to your fork and create a pull request.
