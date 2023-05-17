@@ -33,3 +33,8 @@ Additional Resources: For sample video and audio, kindly click [here](https://dr
 ## To run this project:
 * [Fork](https://github.com/xjtuair/Match-Highlight-Engine) this Repository.
 * Open Terminal and enter the folder 'Match-Highlight-Engine'.
+* `pip3 install -r requirements.txt`
+* Download the full match video and its related audio file in the present working directory.
+* Set variables for input audio and video filenames and desired output filename in code. This will soon be changed to allow setting from terminal arguments.
+* Run `python3 generator.py`
+* Be patient as the highlights are being created! :alarm_clock:
