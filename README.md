@@ -49,3 +49,6 @@ Additional Resources: For sample video and audio, kindly click [here](https://dr
 	* Your modifications will be tested and will be merged if they serve to further improve this project.
 
 This project was developed as a side project within a span of under 4 hours, without any preparation.
+
+---
+<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/xjtuair">xjtuair</a> </b></h1>
