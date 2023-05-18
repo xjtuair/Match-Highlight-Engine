@@ -46,3 +46,6 @@ Additional Resources: For sample video and audio, kindly click [here](https://dr
 	* `git clone -b <name-of-branch> https://github.com/xjtuair/Match-Highlight-Engine.git`
 * After adding any feature:
 	* Head to your fork and create a pull request.
+	* Your modifications will be tested and will be merged if they serve to further improve this project.
+
+This project was developed as a side project within a span of under 4 hours, without any preparation.
